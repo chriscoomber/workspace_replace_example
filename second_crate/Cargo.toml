@@ -1,0 +1,12 @@
+[package]
+authors = ["Chris Coomber <chriscoomber@metaswitch.com>"]
+name = "second_crate"
+version = "0.1.0"
+publish = false
+
+[dependencies]
+log = "0.3.6"
+url = "1.4.0"
+
+[replace]
+"url:1.4.0" = { branch = "master", git = "https://github.com/servo/dsadsa-url.git" }

@@ -1,0 +1,12 @@
+[package]
+authors = ["Chris Coomber <chriscoomber@metaswitch.com>"]
+name = "first_crate"
+version = "0.1.0"
+publish = false
+
+[dependencies]
+url = "1.4.0"
+log = "0.3.6"
+
+[replace]
+"url:1.4.0" = { branch = "serde", git = "https://github.com/servo/rust-url.git" }
