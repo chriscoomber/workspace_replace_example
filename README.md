@@ -16,6 +16,8 @@ second_crate:
 warning: package replacement is not used: https://github.com/rust-lang/crates.io-index#url:1.4.0
     Finished dev [unoptimized + debuginfo] target(s) in 0.0 secs
 ```
+
+```
 $ cargo multi test
 --------------------
 Executing cargo test
